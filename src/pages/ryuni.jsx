@@ -5,7 +5,16 @@ const ryuni = () => {
     <div>
       <h1>료니는 귀여워</h1>
       <button>추천</button>
-      <button>반대</button>
+
+      <button
+        onClick={() => {
+          ryuni();
+        }}
+      >
+        반대
+      </button>
+      const [ryoni, setRyoni] = useState("")
+
     </div>
   );
 };
