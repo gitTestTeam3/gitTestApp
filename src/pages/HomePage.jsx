@@ -1,7 +1,14 @@
 import React from "react";
 
 const HomePage = () => {
-  return <div>아하아하</div>;
+
+  return (
+    <div>
+      HomePage
+      <button>눌러줘</button>
+    </div>
+  );
+
 };
 
 export default HomePage;
